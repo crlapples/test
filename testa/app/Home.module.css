@@ -573,4 +573,138 @@ body {
     width: 300px;
     background-color: white;
   }
+
+  .app3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  transform: scale(.25);
+  position: relative;
+  gap: 100px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.togetherC {
+  position: relative;
+}
+
+.phoneAContainerC {
+  z-index: 10;
+  margin-left: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.phonePropC {
+  height: 300px;
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.appDemoPhoneC {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.appDemoPhoneC img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 15px;
+  transform: scale(1.0);
+  border-radius: 50px;
+}
+
+.togetherD {
+  position: relative;
+  transform: scale(3);
+}
+
+.tabletAContainerA {
+  z-index: 10;
+  margin-left: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.tabletPropA3 {
+  height: 300px;
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.appDemoTabletA {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.appDemoTabletA img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 15px;
+  transform: scale(1.0);
+  border-radius: 50px;
+}
+
+.app3Img {
+  width: 20%;
+  margin-left: 175px;
+}
+
+.returnTopContainer {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px
+}
+
+.appDemoTabletA {
+  width: 96%;
+  height: auto;
+}
+
+.descC {
+  color: black;
+  padding: 15px;
+  font-size: 25px;
+  height: 500px;
+  width: 300px;
+  margin-top: -275px;
+}
+
+.returnTopContainer a {
+  width: 300px !important;
+  height: 100px !important;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.returnTopContainer a p {
+  padding: 25px;
+  text-align: center;
+}
+
+.returnTopContainer a p:hover {
+  text-decoration: underline;
+  background-color: lightgray;
+}
 }
