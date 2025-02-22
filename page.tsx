@@ -52,7 +52,7 @@ const Home = () => {
       <div className={styles.recommendedAppsContainer}>
         <div className={styles.recommendedApps}>
           <Link href="/Apps/name"><div className={styles.app2}>
-            <img className={styles.imageBackground} src="https://assets.onecompiler.app/42xjnjtme/439pczt69/image_fx_%20(20).jpg" />
+            <img className={styles.imageBackground} src="https://assets.onecompiler.app/42xjnjtme/439pczt69/image_fx_%20(21).jpg" />
             <div className={styles.horizontalOriB}>
               <div className={styles.togetherB}>
                 <div className={styles.appDemoPhoneB}><img src="https://assets.onecompiler.app/42xjnjtme/439pfatvu/460x0w%20(2).webp" /></div>
