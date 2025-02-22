@@ -1,7 +1,3 @@
-body {
-  background-color: white;
-}
-
 .mainContainer {
   display: flex;
   flex-direction: column;
@@ -405,9 +401,6 @@ body {
 }
 
 @media (max-width: 720px) {
-  body {
-    overflow-x: hidden;
-  }
 
   .topContainer {
     width: 150%;
@@ -856,10 +849,6 @@ body {
 }
 
 @media screen and (min-width: 721px) and (max-width: 900px) {
-  body {
-    overflow-x: hidden;
-  }
-
   .topContainer {
     width: 150%;
   }

@@ -2,12 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import styles from "./Home.module.css";
-import Head from 'next/head';
+import "./globals.css";
 
 const Home = () => {
-  const pathname = usePathname();
   const [hash, setHash] = useState<string | null>(null);
 
   useEffect(() => {
@@ -27,10 +25,6 @@ const Home = () => {
   }, [hash]);
 
   return (
-    <>
-      <Head>
-        <title>Supplier Relations US, LLC Apps</title>
-      </Head>
     <main className={styles.mainContainer}>
       <div className={styles.topContainer}>
         <div className={styles.logoContainer}>
@@ -114,7 +108,6 @@ const Home = () => {
         </div>
       </div>
     </main>
-    </>
   );
 };
 
