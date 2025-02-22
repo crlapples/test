@@ -66,7 +66,7 @@ const Home = () => {
               </div>
               <div className={styles.togetherB}>
                 <div className={styles.appDemoPhoneB}><img src="https://assets.onecompiler.app/42xjnjtme/439pfatvu/460x0w%20(2).webp" /></div>
-                <div className={styles.phoneAContainerB}><img className={styles.phonePropA2} src="https://assets.onecompiler.app/42xjnjtme/439sca9ca/imageedit_6_9622755702.png" /></div>
+                <div className={styles.phoneAContainerB}><img className={styles.phonePropA} src="https://assets.onecompiler.app/42xjnjtme/439sca9ca/imageedit_6_9622755702.png" /></div>
               </div>
               <p className={styles.descA}>Chinese 5000 teaches 5,400 characters to form 380,000 words. It includes 52 cards for progressive learning. Users can practice calligraphy, play puzzles, and recite daily. Features include a Speak button, zoom, and AirPrint. Designed in the U.S., it supports traditional characters.</p>
             </div>
