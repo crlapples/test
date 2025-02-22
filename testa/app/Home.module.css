@@ -12,7 +12,7 @@ body {
   height: 30%;
   display: flex;
   position: relative;
-  width: 150%;
+  width: 100%;
 }
 
 .logoContainer {
@@ -35,8 +35,8 @@ body {
 .navBarContainer {
   width: 100%;
   overflow-x: auto;
-  margin-left: 35px;
   height: 100%;
+  margin-left: -150px;
 }
 
 .navBarContainer::-webkit-scrollbar {
@@ -48,12 +48,12 @@ body {
   list-style: none;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 175px;
   z-index: 5;
 }
 
 .navBar li a {
-  font-size: 27px;
+  font-size: 31px;
   text-decoration: none;
   color: black;
   padding-right: 20px;
@@ -84,10 +84,7 @@ body {
 }
 
 .app1 {
-  display: flex;
-  align-items: center;
   margin-top: -10px;
-  margin-right: auto;
   position: relative;
 }
 
@@ -102,61 +99,22 @@ body {
   left: 10px;
   gap: 35px;
   transform: scale(.9);
-}
-
-.verticalOriA {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  padding: 15px;
-}
-
-.titleA {
-  font-size: 35px;
-  font-weight: bold;
-  padding: 15px;
-  color: black;
-}
-
-.galleryB {
-  width: 257px;
-  overflow-x: auto;
-  display: flex;
-  align-items: center;
-  gap: 35px;
-  background-color: lightgray;
-  padding: 15px;
-  margin-top: 50px;
-}
-
-.galleryB img {
-  width: 60%;
-  height: auto !important;
-  border-radius: 15px;
-}
-
-.horizontalOriA img {
-  height: 500px;
+  left: 45%;
 }
 
 .togetherA {
   position: relative;
 }
 
-.phoneAContainer {
+.phoneAContainerA {
   z-index: 10;
   margin-left: 0px;
   position: relative;
   width: 100%;
 }
 
-.phonePropA {
+.phonePropA1 {
   height: 300px;
-  transform: scaleY(0.935);
-  transform: scaleX(.97);
-  margin-top: 6px;
   z-index: 1;
   width: 100%;
   position: relative;
@@ -167,11 +125,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 96.1%;
-  height: 99.1%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   z-index: 2;
-  transform: scaleX(1.01);
 }
 
 .appDemoPhoneA img {
@@ -179,15 +136,44 @@ body {
   height: 100%;
   object-fit: contain;
   padding: 15px;
+  transform: scale(1.0);
+  border-radius: 50px;
+}
+
+.verticalOriA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleA {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 15px;
+  color: black;
+}
+
+.galleryA {
+  width: 257px;
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  background-color: lightgray;
+  padding: 15px;
   margin-top: 50px;
-  transform: scale(1.25);
-  border-radius: 25px;
+}
+
+.galleryA img {
+  width: 60%;
+  height: auto !important;
+  border-radius: 15px;
 }
 
 .descA {
   color: black;
   padding: 15px;
-  font-size: 25px;
+  font-size: 28px;
   height: 500px;
   width: 300px;
 }
@@ -411,6 +397,7 @@ body {
 .returnTopContainer a p {
   padding: 25px;
   text-align: center;
+  color: black;
 }
 
 .returnTopContainer a p:hover {
@@ -421,6 +408,10 @@ body {
 @media (max-width: 720px) {
   body {
     overflow-x: hidden;
+  }
+
+  .topContainer {
+    width: 150%;
   }
 
   .logoContainer {
