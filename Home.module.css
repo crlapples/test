@@ -139,6 +139,7 @@ body {
   padding: 15px;
   border-radius: 15px;
   max-width: 500px;
+  overflow-x: auto;
 }
 
 .galleryA img {
@@ -160,11 +161,18 @@ body {
   gap: 10px; /* Space between prop and demo */
 }
 
+.togetherA {
+  position: relative;
+}
+
 /* Phone images */
 .phonePropA {
   width: 100%;
   max-width: 300px;
   height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .appDemoPhoneA {
@@ -172,7 +180,9 @@ body {
   max-width: 300px;
   height: auto;
   object-fit: contain;
-  position: relative; /* Now properly below phonePropA */
+  position: absolute;
+  top: 0;
+  left: 0; /* Now properly below phonePropA */
   z-index: 2;
 }
 
@@ -181,7 +191,7 @@ body {
   font-size: clamp(18px, 2vw, 25px);
   max-width: 400px;
   text-align: center;
-  color: white; /* Ensure visibility */
+  color: black; /* Ensure visibility */
   padding: 15px;
 }
 
@@ -197,8 +207,6 @@ body {
 
 @media (max-width: 768px) {
   .galleryA {
-    flex-direction: column;
-    align-items: center;
     gap: 10px;
   }
 }
