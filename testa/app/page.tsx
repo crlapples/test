@@ -56,11 +56,11 @@ const Home = () => {
               <div className={styles.verticalOriB}>
                 <p className={styles.titleA}>Chinese 5000</p>
                 <div className={styles.galleryA}>
-                  <img src="https://assets.onecompiler.app/42xjnjtme/439runy9u/460x0w%20(18).webp" />
-                  <img src="https://assets.onecompiler.app/42xjnjtme/439runy9u/460x0w%20(18).webp" />
-                  <img src="https://assets.onecompiler.app/42xjnjtme/439runy9u/460x0w%20(18).webp" />
-                  <img src="https://assets.onecompiler.app/42xjnjtme/439runy9u/460x0w%20(18).webp" />
-                  <img src="https://assets.onecompiler.app/42xjnjtme/439runy9u/460x0w%20(18).webp" />
+                  <img src="https://assets.onecompiler.app/42xjnjtme/439pfatvu/460x0w%20(2).webp" />
+                  <img src="https://assets.onecompiler.app/42xjnjtme/439va3py9/460x0w%20(17).webp" />
+                  <img src="https://assets.onecompiler.app/42xjnjtme/439va3py9/460x0w%20(18).webp" />
+                  <img src="https://assets.onecompiler.app/42xjnjtme/439va3py9/460x0w%20(19).webp" />
+                  <img src="https://assets.onecompiler.app/42xjnjtme/439va3py9/460x0w%20(20).webp" />
                 </div>
               </div>
               <div className={styles.togetherB}>
@@ -80,11 +80,11 @@ const Home = () => {
               <div className={styles.verticalOriB}>
                 <p className={styles.titleB}>Contract Plus</p>
                 <div className={styles.galleryB}>
-                  <img src="https://assets.onecompiler.app/42xjnjtme/439runy9u/460x0w%20(18).webp" />
-                  <img src="https://assets.onecompiler.app/42xjnjtme/439runy9u/460x0w%20(18).webp" />
-                  <img src="https://assets.onecompiler.app/42xjnjtme/439runy9u/460x0w%20(18).webp" />
-                  <img src="https://assets.onecompiler.app/42xjnjtme/439runy9u/460x0w%20(18).webp" />
-                  <img src="https://assets.onecompiler.app/42xjnjtme/439runy9u/460x0w%20(18).webp" />
+                  <img src="https://assets.onecompiler.app/42xjnjtme/439pfatvu/460x0w%20(1).webp" />
+                  <img src="https://assets.onecompiler.app/42xjnjtme/439va3py9/460x0w%20(13).webp" />
+                  <img src="https://assets.onecompiler.app/42xjnjtme/439va3py9/460x0w%20(14).webp" />
+                  <img src="https://assets.onecompiler.app/42xjnjtme/439va3py9/460x0w%20(15).webp" />
+                  <img src="https://assets.onecompiler.app/42xjnjtme/439va3py9/460x0w%20(16).webp" />
                 </div>
               </div>
               <p className={styles.descB}>Contract Plus simplifies contract management with editable templates, secure sharing, and printing. Users can quickly customize, print, and share contracts. It includes 55 templates, AirPrint support, and secure access. The interface allows easy editing, search, and data entry. Legal consultation is recommended for compliance.</p>
