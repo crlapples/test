@@ -140,6 +140,7 @@ body {
   border-radius: 15px;
   max-width: 500px;
   overflow-x: auto;
+  max-height: 500px;
 }
 
 .galleryA img {
@@ -157,7 +158,9 @@ body {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   gap: 10px; /* Space between prop and demo */
 }
 
@@ -170,9 +173,6 @@ body {
   width: 100%;
   max-width: 300px;
   height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .appDemoPhoneA {
