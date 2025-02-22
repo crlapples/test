@@ -91,12 +91,10 @@ body {
 .horizontalOriA {
   display: flex;
   position: absolute;
-  left: 900px;
+  top: 100px;
+  left: 10px;
   gap: 35px;
-  transform: scale(1);
-  justify-content: center;
-  height: 40%;
-  margin-bottom: 200px;
+  transform: scale(.9);
 }
 
 .verticalOriA {
@@ -112,6 +110,7 @@ body {
   font-size: 35px;
   font-weight: bold;
   padding: 15px;
+  color: black;
 }
 
 .galleryB {
@@ -245,6 +244,7 @@ body {
   font-weight: bold;
   background-color: white;
   padding: 15px;
+  color: black;
 }
 
 .galleryB {
@@ -418,7 +418,7 @@ body {
 
   .navBar {
     width: 150%;
-    margin-left: -45px;
+    margin-left: 50px;
     overflow-x: auto;
   }
 
@@ -431,6 +431,17 @@ body {
     padding-top: 6px;
     padding-bottom: 6px;
     width: 100px;
+  }
+
+  .horizontalOriA {
+    display: flex;
+    position: absolute;
+    top: -200px;
+    left: -300px;
+    gap: 35px;
+    transform: scale(.25);
+    margin-top: -75px;
+    margin-left: 200px;
   }
 
   .galleryA {
@@ -478,7 +489,7 @@ body {
     left: -300px;
     gap: 35px;
     transform: scale(.25);
-    margin-top: -50px;
+    margin-top: -75px;
   }
   
   .togetherB {
