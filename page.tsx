@@ -54,10 +54,6 @@ const Home = () => {
           <Link href="/Apps/name"><div className={styles.app2}>
             <img className={styles.imageBackground} src="https://assets.onecompiler.app/42xjnjtme/439pczt69/image_fx_%20(21).jpg" />
             <div className={styles.horizontalOriB}>
-              <div className={styles.togetherB}>
-                <div className={styles.appDemoPhoneB}><img src="https://assets.onecompiler.app/42xjnjtme/439pfatvu/460x0w%20(2).webp" /></div>
-                <div className={styles.phoneAContainerB}><img className={styles.phonePropA2} src="https://assets.onecompiler.app/42xjnjtme/439sca9ca/imageedit_6_9622755702.png" /></div>
-              </div>
               <div className={styles.verticalOriB}>
                 <p className={styles.titleB}>Chinese 5000</p>
                 <div className={styles.galleryB}>
@@ -67,6 +63,10 @@ const Home = () => {
                   <img src="https://assets.onecompiler.app/42xjnjtme/439runy9u/460x0w%20(18).webp" />
                   <img src="https://assets.onecompiler.app/42xjnjtme/439runy9u/460x0w%20(18).webp" />
                 </div>
+              </div>
+              <div className={styles.togetherB}>
+                <div className={styles.appDemoPhoneB}><img src="https://assets.onecompiler.app/42xjnjtme/439pfatvu/460x0w%20(2).webp" /></div>
+                <div className={styles.phoneAContainerB}><img className={styles.phonePropA2} src="https://assets.onecompiler.app/42xjnjtme/439sca9ca/imageedit_6_9622755702.png" /></div>
               </div>
               <p className={styles.descB}>Chinese 5000 teaches 5,400 characters to form 380,000 words. It includes 52 cards for progressive learning. Users can practice calligraphy, play puzzles, and recite daily. Features include a Speak button, zoom, and AirPrint. Designed in the U.S., it supports traditional characters.</p>
             </div>
