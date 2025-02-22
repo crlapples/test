@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basepath: "/test",
-  assetPrefix: "/test",
+  assetPrefix: "https://crlapples.github.io/test/",
+  basepath: "/test"
   output: "export"
 };
 
