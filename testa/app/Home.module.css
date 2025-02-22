@@ -147,8 +147,9 @@ body {
 
 .phonePropA {
   height: 300px;
-  transform: scaleY(0.965);
-  margin-top: 5px;
+  transform: scaleY(0.935);
+  transform: scaleX(.97);
+  margin-top: 6px;
   z-index: 1;
   width: 100%;
   position: relative;
