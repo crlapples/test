@@ -441,8 +441,8 @@ body {
     left: -300px;
     gap: 35px;
     transform: scale(.25);
-    margin-top: -25px;
-    margin-left: 135px;
+    margin-top: 50px;
+    margin-left: 150px;
   }
 
   .galleryA {
