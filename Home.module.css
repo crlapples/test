@@ -31,9 +31,10 @@ body {
 }
 
 .navBarContainer {
-  width: 70%;
+  width: 100%;
   overflow-x: auto;
   white-space: nowrap;
+  margin-left: 35px;
 }
 
 .navBar {
@@ -42,8 +43,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  white-space: nowrap;
-  overflow-x: auto;
 }
 
 .navBar li a {
@@ -489,7 +488,7 @@ body {
     left: -300px;
     gap: 35px;
     transform: scale(.25);
-    margin-top: -75px;
+    margin-top: -50px;
   }
   
   .togetherB {
