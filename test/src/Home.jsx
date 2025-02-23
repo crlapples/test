@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'; // Use react-router for navigation
-import './Home.css'; // Import the regular CSS file
+import { Link } from 'react-router-dom';
+import './Home.css';
 
 const Home = () => {
   const [hash, setHash] = useState(null);
+  const [activeItem, setActiveItem] = useState('home');
 
   useEffect(() => {
     const currentHash = window.location.hash;
@@ -19,6 +20,18 @@ const Home = () => {
       }
     }
   }, [hash]);
+
+  const handleNavClick = (item) => {
+    setActiveItem(item);
+  };
+
+  const returnToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    const navbar = document.getElementById('navBar');
+    if (navbar) {
+      navbar.focus();
+    }
+  };
 
   return (
     <main className="mainContainer">
@@ -107,7 +120,7 @@ const Home = () => {
         </div>
       </div>
       <div className="returnTopContainer">
-        <a href="#navBar"><p>Return to top</p></a>
+        <Link to="#navBar"><p>Return to top</p></Link>
       </div>
     </main>
   );
