@@ -411,3 +411,769 @@ body {
   text-decoration: underline;
   background-color: lightgray;
 }
+
+@media (max-width: 720px) {
+  body {
+    transform: scale(1.5);
+  }
+
+  .topContainer {
+    width: 150%;
+  }
+
+  .logoContainer {
+    width: 100;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .navBar {
+    width: 100%;
+    margin-left: 255px;
+    overflow-x: auto;
+    z-index: 5;
+    height: 50px;
+    margin-right: 175px;
+  }
+
+  .navBar li a {
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 120px;
+    white-space: nowrap;
+  }
+
+  .horizontalOriA {
+    display: flex;
+    position: absolute;
+    top: -320px;
+    left: -375px;
+    gap: 35px;
+    transform: scale(.25);
+    margin-top: 50px;
+    margin-left: 150px;
+  }
+
+  .galleryA {
+    width: 257px;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 50px;
+  }
+  
+  .galleryA img {
+    width: 60%;
+    height: auto !important;
+    border-radius: 15px;
+  }
+
+  .seperatorLineB {
+    width: 1px;
+    height: 10px;
+    background-color: black;
+    margin-left: 3;
+    margin-right: 3px;
+  }
+
+  .descA {
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+    height: 500px;
+    width: 300px;
+  }
+
+  .app2 {
+    position: relative;
+    margin-top: -10px;
+  }
+
+  .horizontalOriB {
+    display: flex;
+    position: absolute;
+    top: -200px;
+    left: -300px;
+    gap: 35px;
+    transform: scale(.25);
+    margin-top: -63px;
+  }
+  
+  .togetherB {
+    position: relative;
+  }
+  
+  .phoneAContainerB {
+    z-index: 10;
+    margin-left: 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .phonePropB {
+    height: 300px;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .appDemoPhoneB {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+  }
+  
+  .appDemoPhoneB img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 15px;
+    transform: scale(1.0);
+    border-radius: 50px;
+  }
+  
+  .verticalOriB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .titleB {
+    font-size: 35px;
+    font-weight: bold;
+    background-color: white;
+    padding: 15px;
+  }
+  
+  .galleryB {
+    width: 257px;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 50px;
+  }
+  
+  .galleryB img {
+    width: 60%;
+    height: auto !important;
+    border-radius: 15px;
+  }
+  
+  .descB {
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+    height: 500px;
+    width: 300px;
+    background-color: white;
+  }
+
+  .app3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transform: scale(0.25) !important;
+  position: relative;
+  gap: 0px;
+  width: 100%;
+  margin-top: 50px;
+  left: -539px;
+  height: 300px;
+}
+
+.togetherC {
+  position: relative;
+}
+
+.phoneAContainerC {
+  z-index: 10;
+  margin-left: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.phonePropC {
+  height: 300px;
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.appDemoPhoneC {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.appDemoPhoneC img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 15px;
+  transform: scale(1.0);
+  border-radius: 50px;
+}
+
+.togetherD {
+  position: relative;
+  transform: scale(3);
+  margin-bottom: 300px;
+}
+
+.tabletAContainerA {
+  z-index: 10;
+  margin-left: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.tabletPropA3 {
+  height: auto;
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  transform: scale(1.23);
+  margin-top: 20px;
+}
+
+.appDemoTabletA {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.appDemoTabletA img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 15px;
+  transform: scale(1.0);
+}
+
+.app3Img {
+  width: 20%;
+  margin-left: 275px;
+  margin-bottom: 100px;
+}
+
+.returnTopContainer {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1200px;
+}
+
+.appDemoTabletA {
+  width: 96%;
+  height: auto;
+}
+
+.descC {
+  color: black;
+  padding: 15px;
+  font-size: 25px;
+  height: 500px;
+  width: 800px;
+  margin-top: -275px;
+}
+
+.returnTopContainer {
+  height: 200px;
+}
+
+.returnTopContainer a {
+  width: 300px !important;
+  height: 100px !important;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.returnTopContainer a p {
+  padding: 25px;
+  text-align: center;
+  color: black;
+}
+
+.returnTopContainer a p:hover {
+  text-decoration: underline;
+  background-color: lightgray;
+}
+}
+
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+  .horizontalOriA {
+    transform: scale(0.6);
+    margin-left: -225px;
+    margin-top: -75px;
+  }
+
+  .horizontalOriB {
+    transform: scale(0.6);
+    margin-left: -100px;
+    margin-top: -150px;
+  }
+
+  .app3 {
+    transform: scale(0.6);
+  }
+
+  .descC {
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+    height: 500px;
+    width: 800px;
+    margin-top: -275px;
+    margin-left: -300px;
+  }
+
+  .togetherC {
+    position: relative;
+  }
+  
+  .phoneAContainerC {
+    z-index: 10;
+    margin-left: 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .phonePropC {
+    height: 300px;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .appDemoPhoneC {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+  }
+  
+  .appDemoPhoneC img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 15px;
+    transform: scale(1.0);
+    border-radius: 50px;
+  }
+  
+  .togetherD {
+    position: relative;
+    transform: scale(3);
+    margin-bottom: 300px;
+  }
+  
+  .tabletAContainerA {
+    z-index: 10;
+    margin-left: 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .tabletPropA3 {
+    height: auto;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    transform: scale(1.23);
+    margin-top: 20px;
+  }
+  
+  .appDemoTabletA {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+  }
+  
+  .appDemoTabletA img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 15px;
+    transform: scale(1.0);
+  }
+  
+  .app3Img {
+    width: 20%;
+    margin-left: 275px;
+    margin-bottom: 100px;
+  }
+  
+  .returnTopContainer {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1200px;
+  }
+  
+  .appDemoTabletA {
+    width: 96%;
+    height: auto;
+  }
+
+  .returnTopContainer {
+    margin-top: 300px;
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 900px) {
+  .topContainer {
+    width: 150%;
+  }
+
+  .logoContainer {
+    width: 100;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .navBar {
+    width: 100%;
+    margin-left: 0px;
+    overflow-x: auto;
+    z-index: 5;
+    height: 50px;
+    margin-right: 175px;
+  }
+
+  .navBar li a {
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 120px;
+    white-space: nowrap;
+  }
+
+  .horizontalOriA {
+    display: flex;
+    position: absolute;
+    top: -320px;
+    left: -375px;
+    gap: 35px;
+    transform: scale(.40);
+    margin-top: 150px;
+    margin-left: 350px;
+  }
+
+  .galleryA {
+    width: 257px;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 50px;
+  }
+  
+  .galleryA img {
+    width: 60%;
+    height: auto !important;
+    border-radius: 15px;
+  }
+
+  .seperatorLineB {
+    width: 1px;
+    height: 10px;
+    background-color: black;
+    margin-left: 3;
+    margin-right: 3px;
+  }
+
+  .descA {
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+    height: 500px;
+    width: 300px;
+  }
+
+  .app2 {
+    position: relative;
+    margin-top: -10px;
+  }
+
+  .horizontalOriB {
+    display: flex;
+    position: absolute;
+    top: -100px;
+    left: -300px;
+    gap: 35px;
+    transform: scale(.40);
+    margin-top: -63px;
+  }
+  
+  .togetherB {
+    position: relative;
+  }
+  
+  .phoneAContainerB {
+    z-index: 10;
+    margin-left: 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .phonePropB {
+    height: 300px;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .appDemoPhoneB {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+  }
+  
+  .appDemoPhoneB img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 15px;
+    transform: scale(1.0);
+    border-radius: 50px;
+  }
+  
+  .verticalOriB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .titleB {
+    font-size: 35px;
+    font-weight: bold;
+    background-color: white;
+    padding: 15px;
+  }
+  
+  .galleryB {
+    width: 257px;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 50px;
+  }
+  
+  .galleryB img {
+    width: 60%;
+    height: auto !important;
+    border-radius: 15px;
+  }
+  
+  .descB {
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+    height: 500px;
+    width: 300px;
+    background-color: white;
+  }
+
+  .app3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transform: scale(0.4) !important;
+  position: relative;
+  gap: 0px;
+  width: 100%;
+  margin-top: 150px;
+  left: -360px;
+  height: 300px;
+}
+
+.togetherC {
+  position: relative;
+}
+
+.phoneAContainerC {
+  z-index: 10;
+  margin-left: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.phonePropC {
+  height: 300px;
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.appDemoPhoneC {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.appDemoPhoneC img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 15px;
+  transform: scale(1.0);
+  border-radius: 50px;
+}
+
+.togetherD {
+  position: relative;
+  transform: scale(3);
+  margin-bottom: 300px;
+}
+
+.tabletAContainerA {
+  z-index: 10;
+  margin-left: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.tabletPropA3 {
+  height: auto;
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  transform: scale(1.23);
+  margin-top: 20px;
+}
+
+.appDemoTabletA {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.appDemoTabletA img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 15px;
+  transform: scale(1.0);
+}
+
+.app3Img {
+  width: 20%;
+  margin-left: 275px;
+  margin-bottom: 100px;
+}
+
+.returnTopContainer {
+  margin-top: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 00px;
+}
+
+.appDemoTabletA {
+  width: 96%;
+  height: auto;
+}
+
+.descC {
+  color: black;
+  padding: 15px;
+  font-size: 25px;
+  height: 500px;
+  width: 800px;
+  margin-top: -275px;
+}
+
+.returnTopContainer {
+  height: 200px;
+}
+
+.returnTopContainer a {
+  width: 300px !important;
+  height: 100px !important;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.returnTopContainer a p {
+  padding: 25px;
+  text-align: center;
+  color: black;
+}
+
+.returnTopContainer a p:hover {
+  text-decoration: underline;
+  background-color: lightgray;
+}
+}
