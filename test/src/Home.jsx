@@ -104,10 +104,10 @@ const Home = () => {
             </div>
             <img className="app3Img" src="https://assets.onecompiler.app/42xjnjtme/439pfatvu/1286x0w%20(1).webp" alt="App Image" />
           </a>
-          <div className="returnTopContainer">
-            <a href="#navBar"><p>Return to top</p></a>
-          </div>
         </div>
+      </div>
+      <div className="returnTopContainer">
+        <a href="#navBar"><p>Return to top</p></a>
       </div>
     </main>
   );

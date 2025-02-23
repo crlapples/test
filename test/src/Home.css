@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .mainContainer {
   display: flex;
   flex-direction: column;
@@ -133,7 +137,8 @@
   object-fit: contain;
   padding: 15px;
   transform: scale(1.0);
-  border-radius: 50px;
+  border-radius: 100px;
+  margin-right: 10px;
 }
 
 .verticalOriA {
@@ -194,9 +199,10 @@
 
 .phoneAContainerB {
   z-index: 10;
-  margin-left: 0px;
+  margin-left: 50px;
   position: relative;
   width: 100%;
+  margin-left: 30px;
 }
 
 .phonePropB {
@@ -222,8 +228,9 @@
   height: 100%;
   object-fit: contain;
   padding: 15px;
-  transform: scale(1.0);
-  border-radius: 50px;
+  transform: scaleY(0.98);
+  border-radius: 110px;
+  margin-top: -20px;
 }
 
 .verticalOriB {
@@ -273,7 +280,7 @@
   padding: 100px;
   transform: scale(1);
   position: relative;
-  gap: 100px;
+  gap: 20px;
   width: 100%;
   margin-top: 100px;
 }
@@ -284,9 +291,10 @@
 
 .phoneAContainerC {
   z-index: 10;
-  margin-left: 0px;
+  margin-left: 50px;
   position: relative;
   width: 100%;
+  margin-left: 30px;
 }
 
 .phonePropC {
@@ -312,8 +320,9 @@
   height: 100%;
   object-fit: contain;
   padding: 15px;
-  transform: scale(1.0);
-  border-radius: 50px;
+  transform: scaleY(0.98);
+  border-radius: 110px;
+  margin-top: -20px;
 }
 
 .togetherD {
@@ -323,9 +332,10 @@
 
 .tabletAContainerA {
   z-index: 10;
-  margin-left: 0px;
+  margin-left: 50px;
   position: relative;
   width: 100%;
+  margin-left: -20px;
 }
 
 .tabletPropA3 {
@@ -351,12 +361,14 @@
   height: 100%;
   object-fit: contain;
   padding: 15px;
-  transform: scale(1.0);
+  transform: scale(0.79);
+  margin-top: -22px;
+  margin-left: -39px;
 }
 
 .app3Img {
   width: 20%;
-  margin-left: 175px;
+  margin-left: 115px;
 }
 
 .returnTopContainer {
