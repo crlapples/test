@@ -3,6 +3,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .topContainer {
@@ -15,11 +16,13 @@
 .logoContainer {
   width: 25%;
   height: 100%;
+  overflow: visible;
 }
 
 .logo {
   width: 100%;
   height: 100%;
+  display: block;
 }
 
 .navBar {
