@@ -56,6 +56,7 @@
   width: 2px;
   height: 25%;
   background-color: black;
+  border: 1px solid black;
 }
 
 .contentContainerA {
@@ -158,6 +159,7 @@
 @media (prefers-color-scheme: dark) {
   .seperatorLineB {
     background-color: white;
+    border: solid white;
   }
 
   .navBar li a:hover {

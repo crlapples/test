@@ -39,6 +39,7 @@
 .navBar li a {
   font-size: 2vw;
   text-decoration: none;
+  color: black;
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 12px;
@@ -70,6 +71,10 @@
   .seperatorLineB {
     background-color: white;
     border: solid white;
+  }
+
+  .navBar li a {
+    color: white;
   }
 
   .navBar li a:hover {
