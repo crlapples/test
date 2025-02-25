@@ -1,10 +1,15 @@
 import Link from 'next/link';
 import styles from "./Apps.module.css";
 import "./globals.css";
+import Head from "next/head";
 
 const Apps = () => {
   
   return (
+    <>
+      <Head>
+        <title>Supplier Relations Apps</title>
+      </Head>
     <main className={styles.mainContainer}>
       <div className={styles.topContainer}>
         <div className={styles.logoContainer}>
@@ -241,6 +246,7 @@ const Apps = () => {
         <div className={styles.spacer} />
       </div>
     </main>
+    </>
   );
 };
 
